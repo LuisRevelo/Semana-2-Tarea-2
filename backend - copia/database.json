@@ -1,0 +1,48 @@
+{
+  "vehiculos": [
+    {
+      "vehiculo_id": 1,
+      "marca": "chevrolet",
+      "modelo": "aveo",
+      "anio": 2023,
+      "disponible": false
+    },
+    {
+      "vehiculo_id": 2,
+      "marca": "renult",
+      "modelo": "duster",
+      "anio": 2024,
+      "disponible": true
+    },
+    {
+      "vehiculo_id": 3,
+      "marca": "Toyota",
+      "modelo": "Yaris",
+      "anio": 2026,
+      "disponible": true
+    },
+    {
+      "vehiculo_id": 4,
+      "marca": "chevrolet",
+      "modelo": "luve",
+      "anio": 2026,
+      "disponible": true
+    }
+  ],
+  "clientes": [
+    {
+      "cliente_id": 1,
+      "nombre": "Luis",
+      "apellido": "Revelo",
+      "licencia": "123456",
+      "telefono": "098881660"
+    }
+  ],
+  "alquileres": [
+    {
+      "alquiler_id": 1,
+      "vehiculo_id": 1,
+      "cliente_id": 1
+    }
+  ]
+}
